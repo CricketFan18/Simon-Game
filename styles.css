@@ -26,7 +26,7 @@ body {
   background-color: #068DA9;
 }
 
-.score{
+#score{
   display: flex;
   justify-content: space-around;
   color: #FEF2BF;

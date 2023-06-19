@@ -45,7 +45,10 @@ function checkAnswer(currentLevel) {
         }, 1000);
       }
     } else {
-      highScore = level-1;
+      if(level-1 > highScore)
+      {
+        highScore = level-1;
+      }
       yourScore = level-1;
       $(".highScore").text("HIGH SCORE : "+highScore);
       $(".yourScore").text("YOUR SCORE : "+yourScore);
