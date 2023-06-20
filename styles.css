@@ -18,6 +18,14 @@ body {
 
 }
 
+#rules{
+  font-family: 'Press Start 2P', cursive;
+}
+
+a{
+  color: #FEF2BF;  
+}
+
 #start{
   font-family: 'Press Start 2P', cursive;
   font-weight: bolder;
