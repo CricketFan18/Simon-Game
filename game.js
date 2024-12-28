@@ -47,9 +47,9 @@ function checkAnswer(currentLevel) {
     } else {
       if(level-1 > highScore)
       {
-        highScore = min(0,level-1);
+        highScore = level-1;
       }
-      yourScore = min(0,level-1);
+      yourScore = level-1;
       $(".highScore").text("HIGH SCORE : "+highScore);
       $(".yourScore").text("YOUR SCORE : "+yourScore);
       playSound("wrong");
